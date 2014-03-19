@@ -15,6 +15,6 @@ public class HelloNode {
 
         Config config = new Config();
         HazelcastInstance instance = Hazelcast.newHazelcastInstance(config);
-        instance.getTopic("words").publish(new Word(instance.getName()));
+        instance.getTopic("words").publish(new com.blakgeek.hazelcast.Word(instance.getName()));
     }
 }

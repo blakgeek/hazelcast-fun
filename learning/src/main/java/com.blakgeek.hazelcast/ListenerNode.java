@@ -1,7 +1,5 @@
 package com.blakgeek.hazelcast;
 
-import com.hazelcast.core.*;
-
 /**
  * User: Carlos Lawton
  * Date: 3/16/14
